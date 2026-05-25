@@ -1,3 +1,7 @@
+import nltk
+
+nltk.download('stopwords')
+nltk.download('punkt')   # optional but commonly needed
 # import streamlit as st
 
 # from nltk.tokenize import sent_tokenize
